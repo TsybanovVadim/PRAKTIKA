@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Medicine>
+    <Medication>
+        <Name>Paracetamol</Name>
+        <Pharm>Company A</Pharm>
+        <Group>Painkillers</Group>
+        <Analogs>
+            <Analogue>Acetaminophen</Analogue>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Type>Tablets</Type>
+                <Certificate>
+                    <Number>12345</Number>
+                    <IssueDate>2020-01-01</IssueDate>
+                    <ExpirationDate>2025-01-01</ExpirationDate>
+                    <RegisteringOrganization>FDA</RegisteringOrganization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>10</Quantity>
+                    <Price>10.99</Price>
+                </Package>
+                <Dosage>
+                    <Frequency>Twice a day</Frequency>
+                    <Amount>2 tablets</Amount>
+                </Dosage>
+            </Version>
+            <Version>
+                <Type>Capsules</Type>
+                <Certificate>
+                    <Number>67890</Number>
+                    <IssueDate>2020-06-01</IssueDate>
+                    <ExpirationDate>2027-06-01</ExpirationDate>
+                    <RegisteringOrganization>EMA</RegisteringOrganization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>20</Quantity>
+                    <Price>19.99</Price>
+                </Package>
+                <Dosage>
+                    <Frequency>Once a day</Frequency>
+                    <Amount>1 capsule</Amount>
+                </Dosage>
+            </Version>
+        </Versions>
+    </Medication>
+    <Medication>
+        <!-- more medications -->
+    </Medication>
+</Medicine>
